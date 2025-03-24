@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almeria-Prehevil Negotiations</title>
+    <link rel="stylesheet" href="./style.css"> 
+</head>
+<body>
+
+    <div id="game-container"> 
+
+        <div id="welcome-screen"> 
+            <div id="welcome-box">
+                <h1>Welcome to the Almeria-Prehevil Trade Negotiations</h1>
+                <p>Prepare yourself to embody a master negotiator and step forth to engage in an intricate play of wits and resources.</p>
+                <button id="start-button">Start Game</button>
+            </div>
+        </div>
+
+        <div id="newspaper-box" style="display: none;"> 
+            <div id="newspaper-header">
+                <h2 id="newspaper-name">Radical Gazette</h2>
+                <p id="issue-year"> October 2042</p>
+            </div>
+            <div id="newspaper-headline">
+                <h1 id="headline-title">Trade Talk Begins</h1>
+            </div>
+            <div id="newspaper-content">
+                <p>
+                    Tensions rise like a storm over the Sunset Sea as  Almeria, the hardened theocracy, and Prehevil, the icon of modern industry, will face off at the negotiating table. Today, in the opulent halls of the Palace of the Golden Sun, Grand Vizier Furio has been ordered to forge an accord with the so-called heretics of Prehevil.
+                    But what will Prehevil's Chief Trade Negotiator do? Will he seize an unprecedented alliance, or will old grudges and clashing ideologies reduce these talks to mere dust? 
+
+                    Make Almeria or Prehevil great again? Who truly holds the cards? 
+
+                    Enemies, Friends or merely pawns in a grander scheme that none of them can truly comprehend?
+
+                    The world watches, breath held, as the game of power begins.
+
+                </p>
+            </div>
+            <button id="newspaper-continue-button">Continue</button>
+            
+        </div>
+       
+    
+        <div id="game-ui" style="display: none;"> 
+
+            <div id="avatar-container">
+                  <div class="avatar-box" id="ai-avatar-box">
+                  <img src="avatar-ai.jpeg" alt="AI Avatar" class="avatar-image" id="ai-avatar-image">
+                  <div class="avatar-name" id="ai-avatar-name">AI (Furio)</div>
+            </div>
+            <div class="avatar-box" id="player-avatar-box">
+                <img src="avatar-player.jpeg" alt="Player Avatar" class="avatar-image" id="player-avatar-image">
+                <div class="avatar-name" id="player-avatar-name">Player</div>
+            </div>
+        </div>
+           
+            <button id="instructions-button">Instructions</button>
+           
+            <div id="dynamic-buttons-container"></div>
+        </div>
+    
+    </div>
+
+    <script type="module" src="./src/main.ts"></script> 
+</body>
+</html>
