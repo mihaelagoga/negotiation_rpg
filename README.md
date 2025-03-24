@@ -23,10 +23,9 @@ Follow these simple setup steps:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [YOUR_REPOSITORY_URL]
-    cd [YOUR_REPOSITORY_DIRECTORY]
+    git clone `https://github.com/mihaelagoga/negotiation_rpg`
+    cd `negotiation_rpg`
     ```
-    *(Replace `[YOUR_REPOSITORY_URL]` and `[YOUR_REPOSITORY_DIRECTORY]` with your actual repository details.)*
 
 2.  **Install Dependencies:**
     Ensure you have Node.js and npm (or yarn) installed. Then, run:
