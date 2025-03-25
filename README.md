@@ -61,7 +61,7 @@ Follow these simple setup steps:
 
 ### Game Overview
 
-In **Almeria-Prehevil Trade Negotiations**, you represent Prehevil, a technologically  industrial nation, engaging in trade talks with Almeria, a theocratic republic rich in agricultural resources. . Your goal is to negotiate a deal that benefits Prehevil, leveraging your nation's strengths and understanding Almeria's needs and objectives. The game is structured in turns, each with three phases: **Offer**, **Counteroffer**, and **Deal**.
+In **Almeria-Prehevil Trade Negotiations**, you represent Prehevil, a technologically  industrial nation, engaging in trade talks with Almeria, a theocratic republic rich in agricultural resources. Your goal is to negotiate a deal that benefits Prehevil, leveraging your nation's strengths and understanding Almeria's needs and objectives. The game is structured in turns, each with three phases: **Offer**, **Counteroffer**, and **Deal**.
 
 ### Step-by-Step Gameplay
 
@@ -79,7 +79,7 @@ In **Almeria-Prehevil Trade Negotiations**, you represent Prehevil, a technologi
         *   **Both:** For understanding both sides.
         *   **Neither:** To skip the whole debriefing part and proceed directly to negotiations.
 
-    *   **Remember to make your choice using your own voice.**  The supported voice commands include the following: "Almeria", "Prehevil", "Both", "Neither", and variations like "Talk about Almeria", "Tell me about Prehevil", "Both please", "No need", etc. (See "Voice Commands and Grammar" section).
+    *   **Remember to make choices using your own voice.**  The supported voice commands include the following: "Almeria", "Prehevil", "Both", "Neither", and variations like "Talk about Almeria", "Tell me about Prehevil", "Both please", "No need", etc. (See "Voice Commands and Grammar" section).
 
 4.  **Negotiation Turns:**
     *   The negotiation is turn-based , with each turn consisting of 3 phases:
