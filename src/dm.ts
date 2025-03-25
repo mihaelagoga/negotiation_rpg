@@ -727,7 +727,7 @@ const dmMachine = setup({
             () => updateAvatars('ai'), 
             "speakLLMResponse"
           ],
-          on: { SPEAK_COMPLETE: { target: "ListenForResponse", actions: () => updateAvatars("null_ai") } }, // Stop AI highlight, use null_ai for consistency
+          on: { SPEAK_COMPLETE: { target: "ListenForResponse", actions: () => updateAvatars("null_ai") } }, 
         },
         ListenForResponse: {
           entry: [
