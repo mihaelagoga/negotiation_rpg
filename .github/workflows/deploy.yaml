@@ -27,15 +27,18 @@ jobs:
           node-version: '20'
           cache: 'yarn'
 
+      # --- Add this step ---
+      - name: Enable Corepack
+        run: corepack enable
+      # ---------------------
+
       - name: Install Dependencies
         run: yarn install --frozen-lockfile
 
       - name: Build
-
         env:
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-
           NODE_ENV: production
         run: yarn run build
 
