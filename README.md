@@ -9,7 +9,7 @@ Welcome to **Almeria-Prehevil Trade Negotiations**, a role-playing game where yo
 This game is built using:
 
 *   **TypeScript:**  The main programming language of the game.
-*   **XState 5.0:**  Orchestrates the game's state machine and manages the logic of the game and transitions.
+*   **XState 5.0:**  Orchestrates the game's state machine and manages the logic  and transitions.
 *   **SpeechState 2.0:** Implements the voice recognition and text-to-speech feature, enabling voice-controlled gameplay.
 *   **Vite:**  Provides the development environment.
 *   **OpenAI API (GPT-4o):**  Initialises the
