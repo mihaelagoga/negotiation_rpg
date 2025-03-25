@@ -19,7 +19,6 @@ const apiKey = chatGPTKey;
 
 
 const openai = new OpenAI({apiKey,  dangerouslyAllowBrowser: true });
-const instructionPrompt = "You are a helpful assistant in a negotiation debriefing scenario. Respond concisely and professionally.";
 const instructionPromptUmpire = "Be brief, use only 3 sentences. You are the umpire of this negotiation game. Your role is to analyze this transcript from the negociation and to judge whether Prehevil or Almeria gained the upper hand. Consider this a zero-sum game, which one seems to have gotten the better deal. Explain in a phrase who won and why. Make sure to end the phrase with 'Almeria has won' or 'Prehevil' has won' to announce the winner. This is the transcript:"
 const modelName = "gpt-4o-2024-08-06";
 

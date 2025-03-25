@@ -1,19 +1,24 @@
-import { Hypothesis, SpeechStateExternalEvent, Settings } from "speechstate";
+import { Hypothesis, SpeechStateExternalEvent, Settings as OriginalSettings } from "speechstate";
 import { AnyActorRef } from "xstate";
+
+declare module 'speechstate' {
+  export interface Settings {
+    ttsFurioVoice?: string;
+    ttsNarratorVoice?: string;
+  }
+}
 
 
 export interface DMContext {
   spstRef: AnyActorRef;
   lastResult: Hypothesis[] | null;
   debriefingDecision : string | null | undefined;
-  llmResponse : string | null | undefined;    
-  chatHistory : string | null | undefined;    
+  llmResponse : string | null | undefined;
+  chatHistory : string | null | undefined;
   almeriaPoints : number;
   prehevilPoints : number;
   aiCard : Card;
-  settings : Settings
- 
-  
+  settings : OriginalSettings;
 }
 
 
