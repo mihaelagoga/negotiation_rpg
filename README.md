@@ -96,7 +96,7 @@ In **Almeria-Prehevil Trade Negotiations**, you represent Prehevil, a technologi
         *   **Deal Phase (AI Response):**
             *   Furio will respond to your counteroffer with 3 possible options: accepting, rejecting, or making a further counter-proposal.
 
-        The negotiation continues in a turn-based manner. In **Turn 2**, you will initiate the offer, and Furio will respond.
+        The negotiation continues in a turn-based manner. In **Phase 2**, you will initiate the offer, and Furio will respond.
 
 5.  **Winning the Game:**
     *   After the deal phase in each turn, an umpire (narrator) will analyze the negotiation transcript and decide which side overpowered the other.
