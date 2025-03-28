@@ -105,7 +105,7 @@ In **Almeria-Prehevil Trade Negotiations**, you represent Prehevil, a technologi
 
 ### Voice Commands and Grammar
 
-The game utilizes voice recognition. Below are the key voice commands and grammar elements used.There are quite limited and will need to be updated in the future by implementing NLU instead.
+The game utilizes voice recognition. Below are the key voice commands and grammar elements used. These are quite limited and will need to be updated in the future by implementing NLU.
 
 *   **Debriefing Choices:**
     *   "Almeria", "Almedia", "Talk about Almeria", "Tell me about Almeria", "Learn about Almeria", "Want to know about Almeria", "Almeria please", "Almeria debriefing"
